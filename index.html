@@ -25,7 +25,7 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="#accueil" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Accueil</a>
+                        <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Accueil</a>
                     </li>
                     <li>
                         <a href="#about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">A propos</a>
@@ -35,9 +35,6 @@
                     </li>
                     <li>
                         <a href="#formation" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Formation</a>
-                    </li>
-                    <li>
-                        <a href="#skills" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Compétences</a>
                     </li>
                     <li>
                         <a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
@@ -55,7 +52,7 @@
                 <p id="typewriter"></p>
 
                 <script>
-                const texts = ["Etudiant informatique", "Average SQL enjoyer", "Python enthusiast"];
+                const texts = ["Etudiant informatique", "Développeur et Data Analyste", "À la recherche d'une alternance"];
                   let index = 0;
                   let letterIndex = 0;
                   let isDeleting = false;
@@ -97,8 +94,7 @@
     </header>
 
     <section id="about" class="py-20 bg-white dark:bg-gray-900">
-      <section id="about" class="py-20">
-        <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4">
           <div class="flex flex-wrap items-center justify-between">
             <div class="w-full md:w-1/2 mb-8 md:mb-0">
               <h2 class="text-3xl font-bold text-gray-800 dark:text-white">A Propos</h2>
@@ -108,41 +104,38 @@
               <p class="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed">
                 Motivé par le développement logiciel, j'ai acquis des compétences solides dans divers langages de programmation tels que Python, Java, HTML/CSS et PHP. Je suis également fasciné par l'analyse de données et l'apprentissage automatique, domaines que j'explore avec enthousiasme.
               </p>
-              <a href="ressources/Pierre_Kerlau_CV_2024_Alternance.pdf" class="mt-4 inline-block px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md shadow hover:bg-indigo-700">
+              <a href="ressources/Pierre_Kerlau_CV_2024_Alternance.pdf" target="_blank" class="mt-4 inline-block px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md shadow hover:bg-indigo-700">
                 Voir mon CV
               </a>
             </div>
             <div class="w-full md:w-1/2">
-                <img src="img/moilpb.jpg" alt="Votre photo" class="rounded-full shadow-lg mx-auto md:ml-auto" style="max-width: 200px;">
+                <img src="img/logomieux.png" alt="Votre photo" class="rounded-full shadow-lg mx-auto md:ml-auto" style="max-width: 200px;">
             </div>
           </div>
             <div class="mt-16 flex flex-wrap items-center justify-center">
             <div class="w-full sm:w-1/2 md:w-1/3 mb-4 sm:mb-0">
               <h3 class="text-xl font-bold text-gray-800 dark:text-white">Compétences</h3>
-              <ul class="mt-4 list-disc text-gray-600 dark:text-gray-400">
-                <li>Programmation: Python, Java, HTML/CSS, PHP</li>
-                <li>Bases de données: SQL, MySQL</li>
+              <ul class="mt-4 text-gray-600 dark:text-gray-400">
+                <li>Programmation: Python, Java, HTML/CSS/JS, PHP</li>
+                <li>Bases de données: SQL, PhpMyAdmin</li>
                 <li>Analyse de données: Power BI</li>
-                <li>Apprentissage automatique: concepts de base</li>
-                <li>Travail en équipe</li>
                 <li>Anglais: niveau C1</li>
               </ul>
             </div>
             <div class="w-full sm:w-1/2 md:w-1/3 mb-4 sm:mb-0">
               <h3 class="text-xl font-bold text-gray-800 dark:text-white">Expériences</h3>
-              <ul class="mt-4 list-disc text-gray-600 dark:text-gray-400">
-                <li>**Stage:** Airbus Atlantic, Nantes (Janvier-Février 2023)</li>
-                <li>**Intérim:** EDF, La Perverie (Mai-Juin 2023)</li>
-                <li>**Développement d'une application web:** Piscine des Dervallières (Juin-Août 2022)</li>
-                <li>**Divers postes en alternance et saisonniers** (voir CV)</li>
+              <ul class="mt-4 text-gray-600 dark:text-gray-400">
+                <li><strong>STAGE - </strong>Airbus Atlantic, Nantes (Janvier-Février 2023)</li>
+                <li><strong>STAGE - </strong>EDF, Nantes (Mai-Juin 2023)</li>
+                <li>Piscine des Dervallières (Juin-Août 2022)</li>
+                <li>Divers postes en alternance et saisonniers (voir CV)</li>
               </ul>
             </div>
             <div class="w-full sm:w-1/2 md:w-1/3">
               <h3 class="text-xl font-bold text-gray-800 dark:text-white">Centres d'intérêt</h3>
-              <ul class="mt-4 list-disc text-gray-600 dark:text-gray-400">
+              <ul class="mt-4 text-gray-600 dark:text-gray-400">
                 <li>Basketball</li>
                 <li>Echecs</li>
-                <li>Cryptographie</li>
                 <li>Musique</li>
                 <li>Cuisine</li>
               </ul>
@@ -150,265 +143,171 @@
           </div>
     </section>
 
-    <section id="project" class="bg-gray-100 dark:bg-gray-900"></div>
-      <div class="grid grid-cols-3 gap-14 p-40">
-        <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-          <div
-            class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
-            <img
-              src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-              alt="ui/ux review check" />
-            <div
-              class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60">
-            </div>
-            <button
-              class="!absolute  top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-            </button>
+    <section id="projet" class="py-20 bg-gray-100 dark:bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap items-center justify-between"></div>
+          <div class="w-full md:w-1/2 mb-8 md:mb-0">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Projets</h2>
           </div>
-          <div class="p-6">
-            <div class="flex items-center justify-between mb-3">
-              <h5 class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-                Analyse de logs
-              </h5>
-              <p
-                class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
-            </div>
-            <p class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-              La société STESIO a mis en place un proxy pour enregistrer les activités Internet de ses employés afin de se conformer aux obligations légales. Le responsable du système d’information souhaite utiliser ces journaux pour établir des statistiques sur les sites les plus visités et les utilisateurs les plus actifs, et également être en mesure de répondre aux requêtes spécifiques, comme savoir qui a consulté un site à une date et une heure données.
-            </p>
-            <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
-              <span
-                class="hover:!opacity-100 group-hover:opacity-70">
-                <span
-                  class="block w-8 h-8 bg-gray-900 rounded-full bg-opacity-10 text-center align-middle font-sans text-xs font-medium text-gray-900 leading-8">
-                  <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>python [#127]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7599.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M296.744,7457.45798 C296.262,7457.45798 295.872,7457.06594 295.872,7456.58142 C295.872,7456.0969 296.262,7455.70587 296.744,7455.70587 C297.226,7455.70587 297.616,7456.0969 297.616,7456.58142 C297.616,7457.06594 297.226,7457.45798 296.744,7457.45798 M294.072,7459 C299.15,7459 298.833,7456.78649 298.833,7456.78649 L298.827,7454.49357 L293.982,7454.49357 L293.982,7453.80499 L300.751,7453.80499 C300.751,7453.80499 304,7454.17591 304,7449.02614 C304,7443.87636 301.165,7444.0583 301.165,7444.0583 L299.472,7444.0583 L299.472,7446.44873 C299.472,7446.44873 299.563,7449.29855 296.682,7449.29855 L291.876,7449.29855 C291.876,7449.29855 289.176,7449.25533 289.176,7451.9222 L289.176,7456.33112 C289.176,7456.33112 288.766,7459 294.072,7459 M291.257,7440.54202 C291.739,7440.54202 292.128,7440.93406 292.128,7441.41858 C292.128,7441.9031 291.739,7442.29413 291.257,7442.29413 C290.775,7442.29413 290.385,7441.9031 290.385,7441.41858 C290.385,7440.93406 290.775,7440.54202 291.257,7440.54202 M293.928,7439 C288.851,7439 289.168,7441.21351 289.168,7441.21351 L289.174,7443.50643 L294.019,7443.50643 L294.019,7444.19501 L287.249,7444.19501 C287.249,7444.19501 284,7443.82409 284,7448.97386 C284,7454.12364 286.836,7453.9417 286.836,7453.9417 L288.528,7453.9417 L288.528,7451.55127 C288.528,7451.55127 288.437,7448.70145 291.319,7448.70145 L296.124,7448.70145 C296.124,7448.70145 298.824,7448.74467 298.824,7446.0778 L298.824,7441.66888 C298.824,7441.66888 299.234,7439 293.928,7439" id="python-[#127]"> </path> </g> </g> </g> </g></svg>
-              </span>
-            </div>
+          <div class="grid grid-cols-3 gap-14 p-10">
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Analyse de logs</h2>
+            <img src="img/projetAnalyseLogs.png" alt="Projet 1" class="mt-4 object-contain h-40 w-full rounded-md">
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Description du projet 1</p>
+            <a href="#" class="mt-4 inline-block px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md shadow hover:bg-indigo-700">Voir le projet</a>
           </div>
-          <div class="p-6 pt-3">
-            <button
-              class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-              Plus d'informations
-            </button>
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Site bibliothèque</h2>
+            <img src="img/ProjetBibliotheque.png" alt="Projet 2" class="mt-4 object-contain h-40 w-full rounded-md">
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Description du projet 2</p>
+            <a href="#" class="mt-4 inline-block px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md shadow hover:bg-indigo-700">Voir le projet</a>
           </div>
-        </div> 
-
-        <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-          <div
-            class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
-            <img
-              src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-              alt="ui/ux review check" />
-            <div
-              class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60">
-            </div>
-            <button
-              class="!absolute  top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-            </button>
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Thali mini</h2>
+            <img src="img/projetThaliMini.png" alt="Projet 3" class="mt-4 object-contain h-40 w-full rounded-md">
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Description du projet 3</p>
+            <a href="#" class="mt-4 inline-block px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md shadow hover:bg-indigo-700">Voir le projet</a>
           </div>
-          <div class="p-6">
-            <div class="flex items-center justify-between mb-3">
-              <h5 class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-                Site web bibliothèque
-              </h5>
-              <p
-                class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
-            </div>
-            <p class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-              Une bibliothèque vous a contacté pour créer un site web moderne et convivial, offrant aux utilisateurs un accès facile à son catalogue de livres, des fonctionnalités de recherche avancées et la possibilité de réserver et de renouveler des emprunts en ligne, afin d’améliorer l’expérience des utilisateurs et de promouvoir les services de la bibliothèque tout en assurant la sécurité du site et de ses données.            </p>
-            <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
-              <span
-                class="hover:!opacity-100 group-hover:opacity-70">
-                <span
-                  class="block w-8 h-8 bg-gray-900 rounded-full bg-opacity-10 text-center align-middle font-sans text-xs font-medium text-gray-900 leading-8">
-                  <svg viewBox="-1 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>html [#124]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-61.000000, -7639.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M19.4350881,7485 L19.4279481,7485 L10.8119794,7485 L11.0180201,7487 L19.2300674,7487 C19.109707,7488.752 18.7455658,7492.464 18.6119454,7494.153 L13.99949,7495.451 L13.99949,7495.455 L13.98929,7495.46 L9.37377458,7493.836 L9.05757353,7490 L11.3199411,7490 L11.4800816,7492.063 L13.99337,7493 L13.99949,7493 L16.5086984,7492.1 L16.7667592,7489 L8.95659319,7489 C8.91885306,7488.599 8.43333144,7483.392 8.34867116,7483 L19.6370488,7483 C19.5738086,7483.66 19.5095484,7484.338 19.4350881,7485 L19.4350881,7485 Z M5,7479 L6.63812546,7497.148 L13.98929,7499 L21.3598345,7497.111 L23,7479 L5,7479 Z" id="html-[#124]"> </path> </g> </g> </g> </g></svg>
-                </span>
-            </div>
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Site r3st0.fr</h2>
+            <img src="img/projetSiteResto.png" alt="Projet 1" class="mt-4 object-contain h-40 w-full rounded-md">
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Description du projet 1</p>
+            <a href="#" class="mt-4 inline-block px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md shadow hover:bg-indigo-700">Voir le projet</a>
           </div>
-          <div class="p-6 pt-3">
-            <button
-              class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-              Plus d'informations
-            </button>
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Application r3st0.fr</h2>
+            <img src="img/projetAndroidStudio.png" alt="Projet 2" class="mt-4 object-contain h-40 w-full rounded-md">
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Description du projet 2</p>
+            <a href="#" class="mt-4 inline-block px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md shadow hover:bg-indigo-700">Voir le projet</a>
           </div>
-        </div>
-
-        <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-          <div
-            class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
-            <img
-              src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-              alt="ui/ux review check" />
-            <div
-              class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60">
-            </div>
-            <button
-              class="!absolute  top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-            </button>
-          </div>
-          <div class="p-6">
-            <div class="flex items-center justify-between mb-3">
-              <h5 class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-                Module Thali mini
-              </h5>
-              <p
-                class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
-            </div>
-            <p class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-              THALI développe le module THALI_MINI pour proposer un catalogue de mini-excursions après-midis, avec places limitées. Chaque excursion est décomposée en étapes et le module gère la réservation et les étapes associées via une base de données MYSQL/MariaDB. Des ajustements sont nécessaires pour l’interface, les classes métier et l’accès à la base de données suite à un prototype incomplet.            </p>
-            <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
-              <span
-                class="hover:!opacity-100 group-hover:opacity-70">
-                <span
-                  class="block w-8 h-8 bg-gray-900 rounded-full bg-opacity-10 text-center align-middle font-sans text-xs font-medium text-gray-900 leading-8">
-                  <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>python [#127]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7599.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M296.744,7457.45798 C296.262,7457.45798 295.872,7457.06594 295.872,7456.58142 C295.872,7456.0969 296.262,7455.70587 296.744,7455.70587 C297.226,7455.70587 297.616,7456.0969 297.616,7456.58142 C297.616,7457.06594 297.226,7457.45798 296.744,7457.45798 M294.072,7459 C299.15,7459 298.833,7456.78649 298.833,7456.78649 L298.827,7454.49357 L293.982,7454.49357 L293.982,7453.80499 L300.751,7453.80499 C300.751,7453.80499 304,7454.17591 304,7449.02614 C304,7443.87636 301.165,7444.0583 301.165,7444.0583 L299.472,7444.0583 L299.472,7446.44873 C299.472,7446.44873 299.563,7449.29855 296.682,7449.29855 L291.876,7449.29855 C291.876,7449.29855 289.176,7449.25533 289.176,7451.9222 L289.176,7456.33112 C289.176,7456.33112 288.766,7459 294.072,7459 M291.257,7440.54202 C291.739,7440.54202 292.128,7440.93406 292.128,7441.41858 C292.128,7441.9031 291.739,7442.29413 291.257,7442.29413 C290.775,7442.29413 290.385,7441.9031 290.385,7441.41858 C290.385,7440.93406 290.775,7440.54202 291.257,7440.54202 M293.928,7439 C288.851,7439 289.168,7441.21351 289.168,7441.21351 L289.174,7443.50643 L294.019,7443.50643 L294.019,7444.19501 L287.249,7444.19501 C287.249,7444.19501 284,7443.82409 284,7448.97386 C284,7454.12364 286.836,7453.9417 286.836,7453.9417 L288.528,7453.9417 L288.528,7451.55127 C288.528,7451.55127 288.437,7448.70145 291.319,7448.70145 L296.124,7448.70145 C296.124,7448.70145 298.824,7448.74467 298.824,7446.0778 L298.824,7441.66888 C298.824,7441.66888 299.234,7439 293.928,7439" id="python-[#127]"> </path> </g> </g> </g> </g></svg>
-              </span>
-            </div>
-          </div>
-          <div class="p-6 pt-3">
-            <button
-              class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-              Plus d'informations
-            </button>
-          </div>
-        </div>
-
-        <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-          <div
-            class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
-            <img
-              src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-              alt="ui/ux review check" />
-            <div
-              class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60">
-            </div>
-            <button
-              class="!absolute  top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-            </button>
-          </div>
-          <div class="p-6">
-            <div class="flex items-center justify-between mb-3">
-              <h5 class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-                Analyse de logs
-              </h5>
-              <p
-                class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
-            </div>
-            <p class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-              La société STESIO a mis en place un proxy pour enregistrer les activités Internet de ses employés afin de se conformer aux obligations légales. Le responsable du système d’information souhaite utiliser ces journaux pour établir des statistiques sur les sites les plus visités et les utilisateurs les plus actifs, et également être en mesure de répondre aux requêtes spécifiques, comme savoir qui a consulté un site à une date et une heure données.
-            </p>
-            <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
-              <span
-                class="hover:!opacity-100 group-hover:opacity-70">
-                <span
-                  class="block w-8 h-8 bg-gray-900 rounded-full bg-opacity-10 text-center align-middle font-sans text-xs font-medium text-gray-900 leading-8">
-                  <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>python [#127]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7599.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M296.744,7457.45798 C296.262,7457.45798 295.872,7457.06594 295.872,7456.58142 C295.872,7456.0969 296.262,7455.70587 296.744,7455.70587 C297.226,7455.70587 297.616,7456.0969 297.616,7456.58142 C297.616,7457.06594 297.226,7457.45798 296.744,7457.45798 M294.072,7459 C299.15,7459 298.833,7456.78649 298.833,7456.78649 L298.827,7454.49357 L293.982,7454.49357 L293.982,7453.80499 L300.751,7453.80499 C300.751,7453.80499 304,7454.17591 304,7449.02614 C304,7443.87636 301.165,7444.0583 301.165,7444.0583 L299.472,7444.0583 L299.472,7446.44873 C299.472,7446.44873 299.563,7449.29855 296.682,7449.29855 L291.876,7449.29855 C291.876,7449.29855 289.176,7449.25533 289.176,7451.9222 L289.176,7456.33112 C289.176,7456.33112 288.766,7459 294.072,7459 M291.257,7440.54202 C291.739,7440.54202 292.128,7440.93406 292.128,7441.41858 C292.128,7441.9031 291.739,7442.29413 291.257,7442.29413 C290.775,7442.29413 290.385,7441.9031 290.385,7441.41858 C290.385,7440.93406 290.775,7440.54202 291.257,7440.54202 M293.928,7439 C288.851,7439 289.168,7441.21351 289.168,7441.21351 L289.174,7443.50643 L294.019,7443.50643 L294.019,7444.19501 L287.249,7444.19501 C287.249,7444.19501 284,7443.82409 284,7448.97386 C284,7454.12364 286.836,7453.9417 286.836,7453.9417 L288.528,7453.9417 L288.528,7451.55127 C288.528,7451.55127 288.437,7448.70145 291.319,7448.70145 L296.124,7448.70145 C296.124,7448.70145 298.824,7448.74467 298.824,7446.0778 L298.824,7441.66888 C298.824,7441.66888 299.234,7439 293.928,7439" id="python-[#127]"> </path> </g> </g> </g> </g></svg>
-              </span>
-            </div>
-          </div>
-          <div class="p-6 pt-3">
-            <button
-              class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-              Plus d'informations
-            </button>
-          </div>
-        </div>
-
-        <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-          <div
-            class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
-            <img
-              src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-              alt="ui/ux review check" />
-            <div
-              class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60">
-            </div>
-            <button
-              class="!absolute  top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-            </button>
-          </div>
-          <div class="p-6">
-            <div class="flex items-center justify-between mb-3">
-              <h5 class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-                Analyse de logs
-              </h5>
-              <p
-                class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
-            </div>
-            <p class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-              La société STESIO a mis en place un proxy pour enregistrer les activités Internet de ses employés afin de se conformer aux obligations légales. Le responsable du système d’information souhaite utiliser ces journaux pour établir des statistiques sur les sites les plus visités et les utilisateurs les plus actifs, et également être en mesure de répondre aux requêtes spécifiques, comme savoir qui a consulté un site à une date et une heure données.
-            </p>
-            <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
-              <span
-                class="hover:!opacity-100 group-hover:opacity-70">
-                <span
-                  class="block w-8 h-8 bg-gray-900 rounded-full bg-opacity-10 text-center align-middle font-sans text-xs font-medium text-gray-900 leading-8">
-                  <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>python [#127]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7599.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M296.744,7457.45798 C296.262,7457.45798 295.872,7457.06594 295.872,7456.58142 C295.872,7456.0969 296.262,7455.70587 296.744,7455.70587 C297.226,7455.70587 297.616,7456.0969 297.616,7456.58142 C297.616,7457.06594 297.226,7457.45798 296.744,7457.45798 M294.072,7459 C299.15,7459 298.833,7456.78649 298.833,7456.78649 L298.827,7454.49357 L293.982,7454.49357 L293.982,7453.80499 L300.751,7453.80499 C300.751,7453.80499 304,7454.17591 304,7449.02614 C304,7443.87636 301.165,7444.0583 301.165,7444.0583 L299.472,7444.0583 L299.472,7446.44873 C299.472,7446.44873 299.563,7449.29855 296.682,7449.29855 L291.876,7449.29855 C291.876,7449.29855 289.176,7449.25533 289.176,7451.9222 L289.176,7456.33112 C289.176,7456.33112 288.766,7459 294.072,7459 M291.257,7440.54202 C291.739,7440.54202 292.128,7440.93406 292.128,7441.41858 C292.128,7441.9031 291.739,7442.29413 291.257,7442.29413 C290.775,7442.29413 290.385,7441.9031 290.385,7441.41858 C290.385,7440.93406 290.775,7440.54202 291.257,7440.54202 M293.928,7439 C288.851,7439 289.168,7441.21351 289.168,7441.21351 L289.174,7443.50643 L294.019,7443.50643 L294.019,7444.19501 L287.249,7444.19501 C287.249,7444.19501 284,7443.82409 284,7448.97386 C284,7454.12364 286.836,7453.9417 286.836,7453.9417 L288.528,7453.9417 L288.528,7451.55127 C288.528,7451.55127 288.437,7448.70145 291.319,7448.70145 L296.124,7448.70145 C296.124,7448.70145 298.824,7448.74467 298.824,7446.0778 L298.824,7441.66888 C298.824,7441.66888 299.234,7439 293.928,7439" id="python-[#127]"> </path> </g> </g> </g> </g></svg>
-              </span>
-            </div>
-          </div>
-          <div class="p-6 pt-3">
-            <button
-              class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-              Plus d'informations
-            </button>
-          </div>
-        </div>
-
-        <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-          <div
-            class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
-            <img
-              src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-              alt="ui/ux review check" />
-            <div
-              class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60">
-            </div>
-            <button
-              class="!absolute  top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-            </button>
-          </div>
-          <div class="p-6">
-            <div class="flex items-center justify-between mb-3">
-              <h5 class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-                Analyse de logs
-              </h5>
-              <p
-                class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
-            </div>
-            <p class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-              La société STESIO a mis en place un proxy pour enregistrer les activités Internet de ses employés afin de se conformer aux obligations légales. Le responsable du système d’information souhaite utiliser ces journaux pour établir des statistiques sur les sites les plus visités et les utilisateurs les plus actifs, et également être en mesure de répondre aux requêtes spécifiques, comme savoir qui a consulté un site à une date et une heure données.
-            </p>
-            <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
-              <span
-                class="hover:!opacity-100 group-hover:opacity-70">
-                <span
-                  class="block w-8 h-8 bg-gray-900 rounded-full bg-opacity-10 text-center align-middle font-sans text-xs font-medium text-gray-900 leading-8">
-                  <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>python [#127]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7599.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M296.744,7457.45798 C296.262,7457.45798 295.872,7457.06594 295.872,7456.58142 C295.872,7456.0969 296.262,7455.70587 296.744,7455.70587 C297.226,7455.70587 297.616,7456.0969 297.616,7456.58142 C297.616,7457.06594 297.226,7457.45798 296.744,7457.45798 M294.072,7459 C299.15,7459 298.833,7456.78649 298.833,7456.78649 L298.827,7454.49357 L293.982,7454.49357 L293.982,7453.80499 L300.751,7453.80499 C300.751,7453.80499 304,7454.17591 304,7449.02614 C304,7443.87636 301.165,7444.0583 301.165,7444.0583 L299.472,7444.0583 L299.472,7446.44873 C299.472,7446.44873 299.563,7449.29855 296.682,7449.29855 L291.876,7449.29855 C291.876,7449.29855 289.176,7449.25533 289.176,7451.9222 L289.176,7456.33112 C289.176,7456.33112 288.766,7459 294.072,7459 M291.257,7440.54202 C291.739,7440.54202 292.128,7440.93406 292.128,7441.41858 C292.128,7441.9031 291.739,7442.29413 291.257,7442.29413 C290.775,7442.29413 290.385,7441.9031 290.385,7441.41858 C290.385,7440.93406 290.775,7440.54202 291.257,7440.54202 M293.928,7439 C288.851,7439 289.168,7441.21351 289.168,7441.21351 L289.174,7443.50643 L294.019,7443.50643 L294.019,7444.19501 L287.249,7444.19501 C287.249,7444.19501 284,7443.82409 284,7448.97386 C284,7454.12364 286.836,7453.9417 286.836,7453.9417 L288.528,7453.9417 L288.528,7451.55127 C288.528,7451.55127 288.437,7448.70145 291.319,7448.70145 L296.124,7448.70145 C296.124,7448.70145 298.824,7448.74467 298.824,7446.0778 L298.824,7441.66888 C298.824,7441.66888 299.234,7439 293.928,7439" id="python-[#127]"> </path> </g> </g> </g> </g></svg>
-              </span>
-            </div>
-          </div>
-          <div class="p-6 pt-3">
-            <button
-              class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button">
-              Plus d'informations
-            </button>
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Back office r3st0.fr</h2>
+            <img src="img/projetBackOffice.png" alt="Projet 3" class="mt-4 object-contain h-40 w-full rounded-md">
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Back office r3st0.fr</p>
+            <a href="#" class="mt-4 inline-block px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md shadow hover:bg-indigo-700">Voir le projet</a>
           </div>
         </div>
       </div>
     </section>
+
+    <section id="formation" class="py-20 bg-white dark:bg-gray-900">
+      <h2 class="text-3xl font-bold text-gray-800 dark:text-white" style="margin-left: 200px;">Formation</h2>
+      <div class="bg-white">
+        <div class="max-w-xl mx-auto p-8">
+          <div class="flow-root">
+            <ul class="-mb-8">
+              <li>
+                <div class="relative pb-8">
+                  <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
+                  <div class="relative flex items-start space-x-3">
+                    <div>
+                      <div class="relative px-1">
+                        <div class="h-8 w-8 bg-blue-500 rounded-full ring-8 ring-white flex items-center justify-center">
+                          <svg class="text-white h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="min-w-0 flex-1 py-0">
+                      <div class="text-md text-gray-500">
+                        <div>
+                          <a href="https://www.la-joliverie.com/formation/129-bts-services-informatiques-aux-organisations.html" class="font-medium text-gray-900 mr-2">BTS SIO - SLAM</a>
+                        </div>
+                        <span class="whitespace-nowrap text-sm">La Joliverie | 2022 - 2024</span>
+                      </div>
+                      <div class="mt-2 text-gray-700">
+                        <p>
+                          - Approfondissement des langages de programmation tels que Java, Python, PHP.
+                          <br><br>
+                          - Maîtrise des méthodologies de développement logiciel et de gestion de projet.
+                          <br><br>
+                          - Création et déploiement d'applications informatiques pour répondre aux besoins métiers des organisations.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="relative pb-8">
+                  <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
+                  <div class="relative flex items-start space-x-3">
+                    <div>
+                      <div class="relative px-1">
+                        <div class="h-8 w-8 bg-blue-500 rounded-full ring-8 ring-white flex items-center justify-center">
+                          <svg class="text-white h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="min-w-0 flex-1 py-0">
+                      <div class="text-md text-gray-500">
+                        <div>
+                          <a href="https://www-iut.univ-lehavre.fr/info" class="font-medium text-gray-900 mr-2">BUT Informatique</a>
+                        </div>
+                        <span class="whitespace-nowrap text-sm">IUT Le Havre | 2021 - 2022</span>
+                      </div>
+                      <div class="mt-2 text-gray-700">
+                        <p>
+                          - Administration et sécurisation des systèmes d'information.
+                          <br><br>
+                          - Développement de compétences en conception et développement de logiciels.
+                          <br><br>
+                          - Apprentissage des principes fondamentaux des bases de données et des systèmes d'exploitation.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="relative pb-8">
+                  <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
+                  <div class="relative flex items-start space-x-3">
+                    <div>
+                      <div class="relative px-1">
+                        <div class="h-8 w-8 bg-blue-500 rounded-full ring-8 ring-white flex items-center justify-center">
+                          <svg class="text-white h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="min-w-0 flex-1 py-0">
+                      <div class="text-md text-gray-500">
+                        <div>
+                          <a href="https://perrin-goussier.paysdelaloire.e-lyco.fr/perrin/nos-formations/" class="font-medium text-gray-900 mr-2">Baccalauréat STI2D - SIN</a>
+                        </div>
+                        <span class="whitespace-nowrap text-sm">Lycée Jean Perrin | 2017 - 2021</span>
+                      </div>
+                      <div class="mt-2 text-gray-700">
+                        <p>
+                          - Acquisition de compétences en électronique, programmation et traitement de l'information.
+                          <br><br>
+                          - Conception et développement de projets technologiques intégrant des systèmes embarqués.
+                          <br><br>
+                          - Analyse et résolution de problèmes liés aux réseaux et aux technologies de l'information.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
     
     <footer class="w-full p-8 bg-white">
@@ -417,19 +316,19 @@
           <img src="/img/logomieux.png" alt="logo-ct" class="w-10" />
           <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
             <li>
-              <a href="#"
+              <a href="https://www.linkedin.com/in/pierrekerlau/"
                 class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500">
                 Linkedin
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="https://github.com/PierreKerlau/"
                 class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500">
                 Github
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="https://leetcode.com/PierreKerlau/"
                 class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500">
                 Leetcode
               </a>
@@ -437,8 +336,9 @@
           </ul>
         </div>
         <span class="block my-8 border-t border-blue-gray-50">
-        <p class="block font-sans text-base antialiased font-normal leading-relaxed text-center text-blue-gray-900">
-          © 2024 - Pierre Kerlau
+            <p class="text-center">
+            © 2024 - Pierre Kerlau
+            </p>
         </p>
       </footer>
 </body>
