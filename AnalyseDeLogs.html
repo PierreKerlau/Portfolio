@@ -44,33 +44,143 @@
     <section>
         <div class="max-w-screen-xl mx-auto p-4">
             <div class="bg-gray-100 rounded-lg p-4">
-                <pre><code class="language-python">
-                    <span class="text-red-500">"""
-                    Nom du programme : Etape 5.py
-                    Auteurs : Léo Moreau--Menanteau Hans Ettia
-                    Date : 05/01/2023
-                    Version 1.0
-                    """</span>
-                    <span class="text-purple-500">date</span> = str(input(<span class="text-green-500">"Qu'elle es le fichier log a convertir en csv"</span>)) <span class="text-blue-500">#Affectation de la date a la variable date</span>
-                    <span class="text-purple-500">file</span> = <span class="text-green-500">"log_proxy_"</span>+<span class="text-purple-500">date</span>+<span class="text-green-500">".txt"</span>  <span class="text-blue-500">#creation d'une variable qui seras le nom du fichier grace a la date</span>
-                    <span class="text-purple-500">f</span> = open(<span class="text-purple-500">file</span>,<span class="text-green-500">"r"</span>)  <span class="text-blue-500">#ouverture du fichier</span>
-                    <span class="text-purple-500">sortie</span> = open(<span class="text-green-500">"loginfo.csv"</span>,<span class="text-green-500">"a"</span>) <span class="text-blue-500">#creation/ouverture du fichier loginfo.csv</span>
-                    
-                    <span class="text-purple-500">lines</span> = <span class="text-purple-500">f</span>.readlines() <span class="text-blue-500">#affectation du contenus du fichier dans la variables lines</span>            
-                    <span class="text-purple-500">nblines</span> = len(<span class="text-purple-500">lines</span>)  <span class="text-blue-500">#creation d'une variable égale au nombre de ligne dans les log</span>
-                    
-                    <span class="text-purple-500">for i in range(nblines):</span>              
-                        <span class="text-purple-500">linessep</span> = <span class="text-purple-500">lines[i]</span>.split(<span class="text-green-500">" "</span>)  <span class="text-blue-500">#separation des element des log</span>
-                        <span class="text-purple-500">heure</span> = <span class="text-purple-500">linessep[0]</span>             <span class="text-blue-500">#affectation de l'heure a la variable heure par soucis de clairté</span>
-                        <span class="text-purple-500">ip</span> = <span class="text-purple-500">linessep[1]</span>                 
-                        <span class="text-purple-500">url</span> = <span class="text-purple-500">linessep[4]</span>
-                        <span class="text-purple-500">result</span> = <span class="text-purple-500">date</span>+<span class="text-green-500">";"</span>+<span class="text-purple-500">heure</span>+<span class="text-green-500">";"</span>+<span class="text-purple-500">ip</span>+<span class="text-green-500">";"</span>+<span class="text-purple-500">url</span>+<span class="text-green-500">"\n"</span> <span class="text-blue-500">#concaténation de la date + l'heure + l'adresse ip + de l'url</span>
-                        <span class="text-purple-500">sortie</span>.write(<span class="text-purple-500">result</span>)     
-                    <span class="text-purple-500">f</span>.close()       <span class="text-blue-500">#fermeture des fichiers</span>
-                    <span class="text-purple-500">sortie</span>.close() 
-                </code></pre>
+                <p class="text-justify"><strong>Contexte : </strong> La société STESIO a mis en place un proxy pour enregistrer les activités Internet de ses employés afin de se conformer aux obligations légales. Le responsable du système d’information souhaite utiliser ces journaux pour établir des statistiques sur les sites les plus visités et les utilisateurs les plus actifs, et également être en mesure de répondre aux requêtes spécifiques, comme savoir qui a consulté un site à une date et une heure données.</p>
             </div>
         </div>
+    </section>
+
+    <section>
+      <div class="max-w-screen-xl mx-auto p-4">
+          <a href="#" class="inline-flex items-center px-4 py-2 mt-4 text-sm font-medium text-white bg-gray-500 border border-transparent rounded-md hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">Compte-rendus</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="max-w-screen-xl mx-auto p-4">
+        <div class="bg-gray-100 rounded-lg p-4">
+          <h2 class="text-2xl font-bold mb-4">Compétences</h2>
+          <div class="grid grid-cols-3 gap-4">
+            <div class="flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+              </svg>
+              <span class="mt-2 text-lg font-semibold text-center">Gérer le patrimoine informatique</span>
+              <div class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <ul>
+                  <li> - Recenser et identifier les ressources numériques</li>
+                  <li> - Gérer des sauvegardes</li>
+                  <li> - Vérifier le respect des règles d’utilisation des ressources numériques</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+              </svg>              
+              <span class="mt-2 text-lg font-semibold text-center">Répondre aux incidents et aux demandes d’assistance et d’évolution</span>
+              <div class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>                
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
+              </svg>              
+              <span class="mt-2 text-lg font-semibold text-center">Développer la présence en ligne de l’organisation</span>
+              <div class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+              </svg>              
+              <span class="mt-2 text-lg font-semibold text-center">Travailler en mode projet</span>
+              <div class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <ul>
+                  <li> - Analyser les objectifs et les modalités d’organisation d’un projet</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
+              </svg>              
+              <span class="mt-2 text-lg font-semibold text-center">Mettre à disposition des utilisateurs un service informatique</span>
+              <div class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>                
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
+              </svg>              
+              <span class="mt-2 text-lg font-semibold">Organiser son développement professionnel</span>
+              <div class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <ul>
+                  <li> - Mettre en place son environnement d’apprentissage personnel</li>
+                  <li> - Gérer son identité professionnelle</li>
+                  <li> - Développer son projet professionnel</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="max-w-screen-xl mx-auto p-4">
+        <div class="bg-gray-100 rounded-lg p-4">
+          <h2 class="text-2xl font-bold mb-4">Rendu final</h2>
+          <pre><code class="language-python">
+    <span class="text-red-500">import</span> os
+
+    <span class="text-blue-500">list</span> = os.listdir()
+    <span class="text-red-500">print</span>(<span class="text-blue-500">list</span>)
+    <span class="text-blue-500">nbElements</span> = <span class="text-red-500">0</span>
+    <span class="text-blue-500">Elements</span> = [<span class="text-red-500">0</span>] * <span class="text-blue-500">len</span>(<span class="text-blue-500">list</span>)
+    <span class="text-red-500">for</span> <span class="text-blue-500">i</span> <span class="text-red-500">in</span> <span class="text-blue-500">range</span>(<span class="text-blue-500">len</span>(<span class="text-blue-500">list</span>)):
+      <span class="text-red-500">if</span> <span class="text-blue-500">list</span>[<span class="text-blue-500">i</span>][<span class="text-red-500">0:10</span>] == <span class="text-green-500">"log_proxy_"</span>:
+        <span class="text-red-500">print</span> (<span class="text-blue-500">list</span>[<span class="text-blue-500">i</span>])
+        <span class="text-blue-500">Elements</span>[<span class="text-blue-500">nbElements</span>] = <span class="text-blue-500">list</span>[<span class="text-blue-500">i</span>]
+        <span class="text-blue-500">nbElements</span> += <span class="text-red-500">1</span>
+
+    <span class="text-red-500">if</span> <span class="text-blue-500">nbElements</span> == <span class="text-red-500">0</span>:
+      <span class="text-red-500">print</span>(<span class="text-green-500">"Pas de logs trouvés"</span>)
+    <span class="text-red-500">else</span>:
+      <span class="text-red-500">for</span> <span class="text-blue-500">i</span> <span class="text-red-500">in</span> <span class="text-blue-500">range</span>(<span class="text-blue-500">nbElements</span>):
+        <span class="text-blue-500">date</span> = <span class="text-blue-500">Elements</span>[<span class="text-blue-500">i</span>][<span class="text-red-500">10:20</span>]
+        <span class="text-blue-500">file</span> = <span class="text-green-500">"log_proxy_"</span> + <span class="text-blue-500">date</span> + <span class="text-green-500">".txt"</span>
+        <span class="text-blue-500">filesortie</span> = <span class="text-green-500">"insert_"</span> + <span class="text-blue-500">date</span> + <span class="text-green-500">".sql"</span>
+
+      <span class="text-blue-500">f</span> = <span class="text-red-500">open</span>(<span class="text-blue-500">file</span>, <span class="text-green-500">"r"</span>)
+      <span class="text-blue-500">sortie</span> = <span class="text-red-500">open</span>(<span class="text-blue-500">filesortie</span>, <span class="text-green-500">"w"</span>)
+
+      <span class="text-blue-500">lines</span> = <span class="text-blue-500">f</span>.readlines()
+      <span class="text-blue-500">nbLines</span> = <span class="text-blue-500">len</span>(<span class="text-blue-500">lines</span>)
+
+      <span class="text-red-500">for</span> <span class="text-blue-500">i</span> <span class="text-red-500">in</span> <span class="text-blue-500">range</span>(<span class="text-blue-500">nbLines</span>):
+        <span class="text-blue-500">linessup</span> = <span class="text-blue-500">lines</span>[<span class="text-blue-500">i</span>].split(<span class="text-green-500">" "</span>)
+        <span class="text-blue-500">heure</span> = <span class="text-blue-500">linessup</span>[<span class="text-red-500">0</span>]
+        <span class="text-blue-500">ip</span> = <span class="text-blue-500">linessup</span>[<span class="text-red-500">1</span>]
+        <span class="text-blue-500">url</span> = <span class="text-blue-500">linessup</span>[<span class="text-red-500">4</span>]
+        <span class="text-blue-500">result</span> = <span class="text-green-500">"INSERT INTO Proxy (adresseip, jour, heure, url) VALUES ('"</span> + <span class="text-blue-500">ip</span> + <span class="text-green-500">"', '"</span> + <span class="text-blue-500">date</span> + <span class="text-green-500">"', '"</span> + <span class="text-blue-500">heure</span> + <span class="text-green-500">"', '"</span> + <span class="text-blue-500">url</span> + <span class="text-green-500">"');" </span>
+        <span class="text-blue-500">sortie</span>.write(<span class="text-blue-500">result</span> + <span class="text-green-500">"\n"</span>)
+      <span class="text-blue-500">f</span>.close()
+      <span class="text-blue-500">sortie</span>.close()
+      <span class="text-red-500">print</span>(<span class="text-green-500">"Traitement terminé"</span>)
+          </code></pre>
+        </div>
+      </div>
     </section>
     
 
